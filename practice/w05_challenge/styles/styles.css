@@ -1,0 +1,33 @@
+#top {
+    width: 100%;
+    display: block;
+}
+
+div {
+    background-color: #737373;
+    box-sizing: border-box;
+    height: 400px;;
+    text-align: center;
+}
+
+div img {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    margin-top: 50px;
+}
+
+#desk {
+    margin-right: 120px;
+}
+
+#person {
+    margin-left: 120px;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+

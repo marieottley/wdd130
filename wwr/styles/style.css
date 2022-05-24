@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@600&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Slab", "Bodoni MT", serif;
+    padding: 35px;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#background {
+    height: 725px;
+    background-color: #398cbf;
+}
+
+body {
+    background-color: white;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #0e2d40;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #0e2d40;
+}
+
+.book, .join {
+    background-color: #0e2d40;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: white;
+    color: #0e2d40;
+}
+
+.msg {
+    background-color: #398cbf;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+footer {
+    background-color: #0e2d40;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+.home-title {
+    color: #0e2d40;
+    font-family: "Roboto Slab", "Bodoni MT", serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #0e2d40;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.msg h2 {
+    color: white;
+}
+
+.msg p {
+    color: white;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer h3 {
+    color: white;
+    font-family: "Roboto Slab", "Bodoni MT", serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #0e2d40;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+h2 {
+    font-family: "Roboto Slab", "Bodoni MT", serif;
+    margin: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #0e2d40;
+}

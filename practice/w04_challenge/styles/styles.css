@@ -1,0 +1,45 @@
+body {
+    background-color: pink;
+}
+
+h1, #education_quote, #atonement_quote {
+    color: white;
+    text-align: center;
+}
+
+h1, #pres_nelson, ol, li, #bottom_info {
+    font-family: sans-serif;
+}
+
+h1:hover {
+    color: black;
+}
+
+#pres_nelson {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ol {
+    text-align: left;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+#atonement_quote {
+    font-size: 24px;
+}
+
+#bottom_info {
+    text-align: center;
+    font-size: 12px;
+}
