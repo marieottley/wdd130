@@ -125,9 +125,10 @@ h2 {
 }
 
 .card-img {
+    width: 100%;
     border: 10px solid #0e2d40;
     transition: transform .5s;
-    box-shadow: 5px 5px 10 px #6f7364;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .card-img:hover {
@@ -137,7 +138,7 @@ h2 {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat (10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .rivers-card, .camping-card, .rapids-card {
@@ -170,7 +171,7 @@ h2 {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    bod-shadow: 5px 5px 10px #398cbf;
+    box-shadow: 5px 5px 10px #398cbf;
 }
 
 .msg {
