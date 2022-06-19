@@ -38,7 +38,49 @@ nav a:hover {
 
 /* End of Header */
 
-/* Start of Hero */
+/* Start of Footer */
+
+footer {
+    background-color: #0e2d40;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+    font-family: "Roboto Slab", "Bodoni MT", serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #0e2d40;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+/* End of Footer */
+
+
+/* Start of Home Hero */
 
 #hero {
     display: grid;
@@ -95,9 +137,9 @@ h4 {
     color: white;
 }
 
-/* End of Hero */
+/* End of Home Hero */
 
-/* Start of Main */
+/* Start of Home Main */
 
 #content {
     max-width: 1600px;
@@ -210,53 +252,184 @@ h2 {
     color: white;
 }
 
-/* End of Main */
+/* End of Home Main */
 
-/* Start of Footer */
+/* Start of Info Page 2 */
 
-footer {
-    background-color: #0e2d40;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+/* Start of Info Hero */
+
+#info-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
-footer h3 {
-    color: white;
+#info-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#info-hero-img {
+    width: 100%;
+}
+
+.info-hero-title {
     font-family: "Roboto Slab", "Bodoni MT", serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-footer a {
+#info-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#info-hero-msg h1, #info-hero-msg h4 {
     color: white;
-    text-decoration: none;
+    text-align: center;
 }
 
-footer .social img {
-    padding-top: 15px;
+h4 {
+    font-family: "Open Sans", Helvetica, sans-serif;
 }
 
-footer a:hover {
+.info-button-box {
+    text-align: center;
+}
+
+.info-book {
     background-color: white;
+    color: #0e2d40;
+    text-decoration: none;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.info-book:hover {
+    background-color: #398cbf;
+    color: white;
+}
+
+/* End of Info Hero */
+
+/* Start of Info Main About */
+
+#about-provo-river h1 {
+    font-family: "Roboto Slab", "Bodoni MT", serif;
+    font-size: 2em;
     color: #0e2d40;
 }
 
-footer h3 a:hover {
-    text-decoration: underline;
+#about-provo-river p {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #0e2d40;
 }
 
-.icon {
-    width: 80px;
-    padding-top: 10px;
+#about-provo-river {
+    padding-top: 60px;
+    margin: 0px 130px 0px 150px;
 }
 
-/* End of Footer */
+/* End of Info Main About */
+
+/* Start of Info Main Cards */
+
+.info-card-img {
+    width: 100%;
+    border: 10px solid #0e2d40;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.info-card-img:hover {
+    opacity: 6;
+    transform: scale(1.1);
+}
+
+.cards-info {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.about-card, .booking-card, .faqs-card {
+    margin: 200px 0;
+}
+
+.about-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.booking-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.faqs-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+/* End of Info Main Cards */
+
+/* Start of Info Main Testimonials */
+
+.testimonial-1, .testimonial-2, .testimonial-3 {
+    background-color: #398cbf;
+    margin: 60px 130px 60px 150px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 100px);
+}
+
+.testimonials-pics {
+    width: 140px;
+    border-radius: 50%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.testimonials h1 {
+    font-family: "Roboto Slab", "Bodoni MT", serif;
+    font-size: 2em;
+    color: #0e2d40;
+    margin-left: 150px;  
+}
+
+.testimonials h4 {
+    font-family: "Roboto Slab", "Bodoni MT", serif;
+    font-size: 1.25em;
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: start;
+    padding-top: 25px;
+}
+
+.testimonials p {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+    grid-column: 2/7;
+    grid-row: 2/3;
+    justify-self: start;
+    margin-top: 0px;
+    padding-right: 40px;    
+}
+
+/* End of Info Main Testimonials */
+
+/* End of Info Page 2 */
 
 /* Start of Media Query */
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .testimonial-1, .testimonial-2, .testimonial-3, .cards-info {
         display: block;
         height: auto;
     }
@@ -280,7 +453,7 @@ footer h3 a:hover {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapids-card, .about-card, .booking-card, .faqs-card { 
         margin: 50px auto;
         width: 60%;
     }
@@ -295,6 +468,43 @@ footer h3 a:hover {
     footer {
         margin-top: 25px;
     }
+
+    .cards-info {
+        margin-top: 120px;
+    }
+
+    .testimonials h1 {
+        margin: 120px 120px 0px 90px;
+    }
+
+    .testimonial-1, .testimonial-2, .testimonial-3 {
+        width: 60%;
+        margin: 80px auto;
+    }
+
+    .testimonials-pics {
+        margin-top: 60px;
+    }
+
+    .testimonials h4 {
+        margin-top: 20px;
+    }
+
+    .testimonials p {
+        padding: 0px 40px 40px 40px;
+    }
+
+    .testimonials {
+        margin-bottom: 120px;
+    }
+
+    .info-hero-title, #info-hero-msg h4 {
+        text-shadow: 5px 5px 10px #6f7364;
+    }
 }
 
 /* End of Media Query */
+  
+
+
+
