@@ -7,6 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Marie Ottley</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script>
+    function myFunction(imgs) {
+        // Get the expanded image
+        var expandImg = document.getElementById("expandedImg");
+        // Get the image text
+        var imgText = document.getElementById("imgtext");
+        // Use the same src in the expanded image as the image being clicked on from the grid
+        expandImg.src = imgs.src;
+        // Use the value of the alt attribute of the clickable image as text inside the expanded image
+        imgText.innerHTML = imgs.alt;
+        // Show the container element (hidden with CSS)
+        expandImg.parentElement.style.display = "block";
+    }
+    </script>
 </head>
 
 <body>
@@ -52,11 +66,40 @@
                 <button type="button">Check My Projects</button>
             </div>
 
+            <!-- The grid: three columns -->
+            <div class="row">
+                <div class="column">
+                    <img src="images/myphoto2.jpg" id="about-myphoto" alt="Marie Ottley" onclick="myFunction(this);">
+                </div>
+                
+                <div class="column">
+                <img src="images/myfamily.jpeg" alt="Marie Ottley and family" onclick="myFunction(this);">
+                </div>
+                
+                <div class="column">
+                <img src="images/mychildren.jpeg" alt="Marie Ottley's children" onclick="myFunction(this);">
+                </div>
+            </div>
+  
+            <!-- The expanding image container -->
+            <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+            
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div>
+  
+            <!--
             <div class="about-photos">
                 <img src="images/myphoto2.jpg" alt="Marie Ottley">
                 <img src="images/myfamily.jpeg" alt="Marie Ottley and family">
                 <img src="images/mychildren.jpeg" alt="Marie Ottley's children">
             </div>
+            -->
         </main>
 
         <footer>
