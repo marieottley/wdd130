@@ -180,11 +180,78 @@ footer a:hover {
 
 /* Start of About Page */
 
+.about, .philosophy {
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.about {
+    padding-bottom: 80px;
+}
+
+.about h1 {
+    text-align: center;
+    color: #FDBA12;
+    font-size: 3.5em;
+    padding-top: 60px;
+}
+
+.about p {
+    color: #375E97;
+    font-size: 1.5em;
+    padding: 0 180px 40px 180px;
+}
+
+.philosophy {
+    width: 100%;
+    background-color: #375E97;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+hr {
+    background: #FDBA12;
+    border: none;
+    height: 10px;
+    width: 510px;
+    margin-left: 185px;    
+}
+
+.philosophy h2 {
+    color: #FDBA12;
+    font-size: 3em;
+    padding-left: 180px;
+}
+
+.philosophy p {
+    color: white;
+    font-size: 1.5em;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.about-check {
+    background-color: #FDBA12;
+    color: #375E97;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 10px 40px;
+    box-shadow: 5px 5px 12px #00000066;
+    margin-left: 180px;
+    border-style: none;
+}
+
+.about-button-box {
+    margin-top: 60px;
+}
+
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
   width: 30%;
   padding: 10px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 /* Style the images inside the grid */
