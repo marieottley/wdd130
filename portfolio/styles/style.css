@@ -312,3 +312,128 @@ hr {
 }
 
 /* End of About Page */
+
+/* Start of Contact Page */
+
+#hero-img {
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+#contact-title {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #FDBA12;
+    font-size: 2.5em;
+    padding: 10px 40px;
+}
+
+#contact-hero-msg {
+    background-color: #375E97;
+    width: 20%;
+    position: absolute;
+    bottom: -60px;
+    right: 120px;
+    box-shadow: 5px 5px 12px #00000066;
+}
+
+.contact img {
+    width: 120px;
+}
+
+.call-grid, .email-grid {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 5px 5px 12px #00000066;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 160px 440px;   
+    grid-template-rows: 1fr 1fr; 
+    margin: 100px auto;
+}
+
+.call-grid h2, .email-grid h2 {
+    color: #FDBA12;
+    font-size: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 0px;
+}
+
+.call-grid h3, .email-grid h3 {
+    color: #375E97;
+    font-size: 1.5em;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 0px;
+}
+
+.contact img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.message-grid {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 5px 5px 12px #00000066;
+    width: 600px;
+    margin: 100px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.message-grid h2 {
+    color: #FDBA12;
+    font-size: 2em;
+    padding-top: 40px;
+    margin-left: 60px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-family: "Ope Sans", Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #375E9766;
+    padding: 10px;
+}
+
+li {
+    padding: 20px;
+}
+
+input {
+    width: 90%;
+    height: 60px;
+    border: solid 2px #375E97;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #375E97;
+}
+
+textarea {
+    width: 90%;
+    height: 200px;
+    border: solid 2px #375E97;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #375E97;
+}
+
+button {
+    border-style: none;
+    background-color: #FDBA12;
+    box-shadow: 5px 5px 12px #00000066;
+    margin-left: 60px;   
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#message-button {
+    color: #375E97;
+    font-size: 2em;
+    padding: 20px 30px;
+}
+
+/* End of Contact Page */
